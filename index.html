@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitación – Fiesta de Cumpleaños</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="fondo-decorativo">
+        <span class="burbuja b1"></span>
+        <span class="burbuja b2"></span>
+        <span class="burbuja b3"></span>
+        <span class="burbuja b4"></span>
+    </div>
+
+    <main class="tarjeta">
+
+        <div class="encabezado">
+            <p class="subtitulo-top">✨ Estás cordialmente invitado a ✨</p>
+            <h1 class="nombre">La fiesta de<br /><em>Jacqueline Salas</em></h1>
+            <p class="edad-badge">20 años</p>
+        </div>
+
+        <div class="divisor"></div>
+
+        <div class="detalles">
+            <div class="detalle-item">
+                <span class="icono">📅</span>
+                <div>
+                    <p class="detalle-label">Fecha</p>
+                    <p class="detalle-valor">Viernes, 27 de Abril de 2026</p>
+                </div>
+            </div>
+            <div class="detalle-item">
+                <span class="icono">🕖</span>
+                <div>
+                    <p class="detalle-label">Hora</p>
+                    <p class="detalle-valor">7:00 PM en adelante</p>
+                </div>
+            </div>
+            <div class="detalle-item">
+                <span class="icono">📍</span>
+                <div>
+                    <p class="detalle-label">Lugar</p>
+                    <p class="detalle-valor">Fraccionamiento Terra Bella<br />Torreón, Coahuila</p>
+                </div>
+            </div>
+            <div class="detalle-item">
+                <span class="icono">👗</span>
+                <div>
+                    <p class="detalle-label">Dress code</p>
+                    <p class="detalle-valor">casual</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divisor"></div>
+
+        <div class="countdown" id="countdown">
+            <p class="countdown-label">Faltan...</p>
+            <div class="bloques">
+                <div class="bloque"><span id="dias">00</span><small>días</small></div>
+                <div class="bloque"><span id="horas">00</span><small>horas</small></div>
+                <div class="bloque"><span id="minutos">00</span><small>min</small></div>
+                <div class="bloque"><span id="segundos">00</span><small>seg</small></div>
+            </div>
+        </div>
+
+        <div class="divisor"></div>
+
+        <div class="rsvp">
+            <p class="rsvp-texto">¿Confirmas tu asistencia?</p>
+            <div class="botones">
+                <a href="https://wa.me/528715239541?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20fiesta%20de%20Sofía%20🎉"
+                    target="_blank" class="btn btn-si">Sí, ahí estaré 🎉</a>
+                <a href="https://wa.me/528715239541?text=Hola,%20lamentablemente%20no%20podré%20asistir."
+                    target="_blank" class="btn btn-no">No podré ir</a>
+            </div>
+        </div>
+
+        <footer class="pie">
+            <p>Con cariño, Jacky 💛</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
